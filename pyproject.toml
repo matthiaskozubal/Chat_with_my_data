@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chat-with-my-data"
+version = "0.1.0"
+description = "package for running chat with my data project"
+authors = ["mesonyktio <mkoz001@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "chat_with_my_data"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.8"
+langchain = {extras = ["all"], version = "^0.0.245"}
+ipykernel = "^6.25.0"
+ipython = "^8.14.0"
+python-dotenv = "^1.0.0"
+pypdf = "^3.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
