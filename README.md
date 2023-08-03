@@ -58,6 +58,10 @@ To run this project, follow these steps:
 
 
 ## Links
+### Demos
+- [LangChain Chat with Your Data (DeepLearning.ai)](https://learn.deeplearning.ai/langchain-chat-with-your-data/)
+- [Llama Index 101 with Vector DBs and GPT 3.5 (James Briggs | YouTube)](https://www.youtube.com/watch?v=WKvAWub8VCU)
+
 ### Discussion
 - https://www.reddit.com/r/LocalLLaMA/comments/14niv66/using_an_llm_just_for_your_own_data/
 - https://www.reddit.com/r/LocalLLaMA/
@@ -73,7 +77,13 @@ To run this project, follow these steps:
   - https://www.reddit.com/r/LocalLLaMA/wiki/guide/
   - https://ai.meta.com/llama/
     - Llama 2 is available for free for research and commercial use.
-    - models: 7B, 13B, 70B - each one of them 'pretrained' or 'fine-tuned for chast use cases'
+    - models (with link to HuggingFace, [Meta form](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) must be filled in first):
+      - [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf)
+      - [Llama-2-7B-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
+      - [Llama-2-13B](https://huggingface.co/meta-llama/Llama-2-13b-hf)
+      - [Llama-2-13B-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+      - [Llama-2-70B](https://huggingface.co/meta-llama/Llama-2-70b-hf)
+      - [Llama-2-70B-chat](https://huggingface.co/meta-llama/Llama-2-70b-chat-hf)
 
 
 ### Tools
@@ -83,7 +93,6 @@ To run this project, follow these steps:
   - https://python.langchain.com/docs/modules/model_io/models/
 - LlaMaIndex
   - https://github.com/jerryjliu/llama_index
-
 
 
 ## Fun
