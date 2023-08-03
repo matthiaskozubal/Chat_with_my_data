@@ -44,9 +44,9 @@ To run this project, follow these steps:
   echo "OPEN_API_KEY=your_OpenAI_API_key" > .env
   ```
 8. a) Run the project demo file in wsl (within the conda virtual environment):
-    ```bash
-    python demo.py
-    ```
+  ```bash
+  python demo.py
+  ```
 8. b) Run the Jupyter demo notebook included with this project in VS Code:
   ```bash
   code demo.ipynb
@@ -55,7 +55,7 @@ To run this project, follow these steps:
   Ctrl+Shift+P -> Select Interpreter -> Python 3.10.12 ('chat')
   click `run all`    
   ```
-10. Start/restart VS Code
+9. Start/restart VS Code
 
 
 ## Links
