@@ -30,10 +30,11 @@ To run this project, follow these steps:
   ```
 5. Install the project dependencies:
   ```bash
-  <!-- poetry config virtualenvs.create True -->
-  <!-- poetry env use python3.10 -->
   poetry install
   ```
+  <!-- poetry config virtualenvs.create True -->
+  <!-- poetry env use python3.10 -->
+
 6. Download the sample data
   ```bash
   wget -P data/pdfs/ https://hastie.su.domains/ISLRv2_website.pdf
