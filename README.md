@@ -1,12 +1,12 @@
 # Chat with my data
-Testing LLM models and tools to query over my documents
+Testing LLM models and tools to query my documents
 
 List of free ML books: https://www.kdnuggets.com/2020/03/24-best-free-books-understand-machine-learning.html
 
 
 ## Setup
 ### Requirements
-- latest version of [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+- the latest version of [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - Conda as the Python environment manager: [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/distribution)
 
 ### Steps
@@ -30,10 +30,11 @@ To run this project, follow these steps:
   ```
 5. Install the project dependencies:
   ```bash
-  <!-- poetry config virtualenvs.create True -->
-  <!-- poetry env use python3.10 -->
   poetry install
   ```
+  <!-- poetry config virtualenvs.create True -->
+  <!-- poetry env use python3.10 -->
+
 6. Download the sample data
   ```bash
   wget -P data/pdfs/ https://hastie.su.domains/ISLRv2_website.pdf
@@ -43,9 +44,9 @@ To run this project, follow these steps:
   echo "OPEN_API_KEY=your_OpenAI_API_key" > .env
   ```
 8. a) Run the project demo file in wsl (within the conda virtual environment):
-    ```bash
-    python demo.py
-    ```
+  ```bash
+  python demo.py
+  ```
 8. b) Run the Jupyter demo notebook included with this project in VS Code:
   ```bash
   code demo.ipynb
@@ -54,7 +55,6 @@ To run this project, follow these steps:
   Ctrl+Shift+P -> Select Interpreter -> Python 3.10.12 ('chat')
   click `run all`    
   ```
-10. Start/restart VS Code
 
 
 ## Links
@@ -70,6 +70,11 @@ To run this project, follow these steps:
   - https://www.reddit.com/r/LocalLLaMA/comments/11o6o3f/how_to_install_llama_8bit_and_4bit/
   - https://discord.com/invite/Y8H8uUtxc3
   - https://www.reddit.com/r/LocalLLaMA/wiki/models/
+  - https://www.reddit.com/r/LocalLLaMA/wiki/guide/
+  - https://ai.meta.com/llama/
+    - Llama 2 is available for free for research and commercial use.
+    - models: 7B, 13B, 70B - each one of them 'pretrained' or 'fine-tuned for chast use cases'
+
 
 ### Tools
 - LangChain
@@ -77,7 +82,8 @@ To run this project, follow these steps:
   - https://python.langchain.com/docs/modules/model_io/models/llms/
   - https://python.langchain.com/docs/modules/model_io/models/
 - LlaMaIndex
-- https://github.com/jerryjliu/llama_index
+  - https://github.com/jerryjliu/llama_index
+
 
 
 ## Fun
@@ -90,7 +96,7 @@ To run this project, follow these steps:
 
 <!-- ## Problems
 ### Python version when using conda
-1. Check available Python version:
+1. Check the available Python version:
   ```bash
   pyenv versions
   ```
