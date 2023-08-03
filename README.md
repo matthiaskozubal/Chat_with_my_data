@@ -55,7 +55,6 @@ To run this project, follow these steps:
   Ctrl+Shift+P -> Select Interpreter -> Python 3.10.12 ('chat')
   click `run all`    
   ```
-9. Start/restart VS Code
 
 
 ## Links
